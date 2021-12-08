@@ -1,0 +1,8 @@
+<div class="container">
+    <div *ngFor="let item of data">
+        <div class="row" (click)="detailview(item)">
+            <div class="col-md-2">{{item.id}}</div>
+            <div class="col-md-10">{{item.name}}</div>
+        </div>
+    </div>
+</div>
